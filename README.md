@@ -57,10 +57,12 @@ Per seguire il workshop e utilizzare il notebook, segui questi passaggi:
     pip install jupyterlab
     ```
 
-### 2. Download dei File
-* Clona o scarica questa repository per ottenere il file `Full.ipynb` e il dataset.
-* Assicurati che il file `netflix_titles.csv` (il dataset) sia nella stessa directory del notebook `Full.ipynb`, o modifica il percorso nel notebook di conseguenza.
-    * *Nota: Il dataset `netflix_titles.csv` non è incluso in questa repository di esempio, dovrai procurartelo. Una versione comune di questo dataset è disponibile su piattaforme come Kaggle.*
+### 2. Dataset e File del Progetto
+
+* Clona o scarica questa repository per ottenere il file `Full.ipynb` e il dataset necessari per seguire il workshop.
+* Il file `netflix_titles.csv` è già incluso nella repository, all'interno della directory `data/`, che si trova nella stessa directory del  notebook `Full.ipynb`.
+* Il dataset originale è disponibile a questo URL: [https://www.kaggle.com/datasets/inegan/netflix-dataset](https://www.kaggle.com/datasets/inegan/netflix-dataset)
+
 
 ### 3. Installazione delle Librerie
 Il notebook utilizza diverse librerie Python. Le librerie standard come `csv`, `json`, `math`, `collections` sono incluse con Python.
@@ -73,5 +75,4 @@ source venv_workshop/bin/activate  # Su Linux/macOS
 # venv_workshop\Scripts\activate  # Su Windows
 
 # Installa le librerie necessarie
-pip install pandas # Utile per la gestione iniziale dei dati, anche se il notebook usa csv
 pip install sentence-transformers
